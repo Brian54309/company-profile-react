@@ -1,0 +1,190 @@
+#navbar{
+    justify-content: center;
+    width:1440px;
+    height: 62px;
+    background-color:#0091FF;
+    padding: 0;
+}
+
+#navbar-component{
+margin-left:136px;
+font-size: 16px;
+text-align: center;
+width: 114px;
+height: 30px;
+float: left;
+color: white;
+font-family: 'BioRhyme';
+text-decoration: none;
+
+}
+#inside-navbar{
+    list-style-type: none;
+    padding-left:149px;
+    padding-top:19px;
+    justify-content: center;
+}
+
+
+#home{
+    height: 735px;
+    background-color:#F2F2F2;
+    position:absolute;
+    width: 1440px;
+}
+
+#header{
+    margin-left: 97px;
+    font-size: 48px;
+    font-family: 'inter';
+    height: 129px;
+    width: 711px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 51px;
+}
+
+#logo{
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 1054px;
+    border-radius: 8px;
+}
+
+#subheader{
+    margin-top: 31px;
+    font-size: 32px;
+    font-family: 'montserrat';
+    width: 734px;
+    height: 91px;
+    margin-left: 107px;
+    outline: 0;
+}
+
+#button{
+    width: 336px;
+    height: 82px;
+    background-color: #0091FF;
+    color: #ffff;
+    border-radius: 12px;
+    margin-top: 98px;
+    margin-left: 107px;
+    font-size: 24px;
+    font-family: 'montserrat';
+    border-style: none;
+}
+
+#about{
+    height: 735px;
+    background-color:#ffff;
+    position:absolute;
+    width: 1440px;
+    margin-top: 735px;
+}
+
+#About_header{
+    font-size: 48px;
+    font-family: 'inter';
+    width: 505px;
+    height: 73px;
+    font-weight: bold;
+    margin-left: 97px;
+    margin-top: 26px;
+}
+
+#About_1{
+    width: 711px;
+    height: 311px;
+    margin-left:53px ;
+    margin-top: 7px;
+    font-family: 'montserrat';
+    font-size: 32px;
+}
+
+#About_2{
+    width: 715px;
+    height: 176px;
+    margin-left:53px ;
+    margin-top: 34px;
+    font-family: 'montserrat';
+    font-size: 32px;
+}
+
+#building{
+    position: absolute;
+    width: 660px;
+    height: 440px;
+    margin-left: 768px;
+    margin-top: 62px;
+}
+
+#product{
+    margin-top: 1470px;
+    height: 735px;
+    width: 1440px;
+    background-color: #F2F2F2;
+    position: absolute;
+    
+}
+
+#product_header{
+    width: 418px;
+    height: 123px;
+    margin-left: 511px;
+    margin-top: 60px;
+    font-size: 48px;
+    font-family: 'inter';
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#broco{
+    position: absolute;
+    width: 416px;
+    height: 208px;
+    margin-left: 53px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#panasonic{
+    position:absolute;
+    width: 347px;
+    height: 208px;
+    margin-left: 971px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#galleo{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 276px;
+}
+
+#plano{
+    position: absolute;
+    margin-left: 239px;
+    margin-top: 321px;
+}
+
+#atlantic{
+    position: absolute;
+    margin-left: 449px;
+    margin-top: 368px;
+
+}
+
+#stylee{
+    position: absolute;
+    margin-left: 758px;
+    margin-top: 321px;
+}
+#wide{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 478px;
+}
