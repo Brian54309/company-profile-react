@@ -1,5 +1,6 @@
 import "./Contact.css";
 import { Link } from "react-router-dom";
+// contact page
 function Contact() {
   return (
     <div>
