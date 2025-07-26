@@ -10,7 +10,7 @@ function Register() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  const HandleSubmit = async (e) => {
+  const HandleSubmit = async () => {
     // e.preventDefault();
     // try {
     //   const { data } = await axios.post("/api/auth/register", {

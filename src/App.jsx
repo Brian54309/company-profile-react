@@ -56,9 +56,7 @@ function ScrollToHashElement() {
         <Route
           path="/dashboard"
           element={
-            // <RequireAuth>
               <MainPage />
-            /* </RequireAuth> */
           }
         />
         <Route path="/register" element={<Register />} />

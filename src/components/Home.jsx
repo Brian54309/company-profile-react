@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import logo from "../assets/logo.png"
 import "./style.css"; // Optional: Remove if styles are now in Bootstrap classes
 
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
             {/* Right column with logo image */}
             <div className="col-md-6 text-center mt-5 mt-md-0">
               <img
-                src="/src/assets/logo.png"
+                src={logo}
                 alt="Company Logo"
                 className="img-fluid rounded"
                 style={{ maxWidth: "330px", height: "auto" }}
