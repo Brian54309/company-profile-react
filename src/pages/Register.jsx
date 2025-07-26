@@ -11,18 +11,18 @@ function Register() {
   const [confirmPassword, setConfirmPassword] = useState("");
 
   const HandleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const { data } = await axios.post("/api/auth/register", {
-        username,
-        email,
-        password,
-        confirmPassword,
-      });
+    // e.preventDefault();
+    // try {
+    //   const { data } = await axios.post("/api/auth/register", {
+    //     username,
+    //     email,
+    //     password,
+    //     confirmPassword,
+    //   });
       navigate("/")
-    } catch (error) {
-      console.error(error);
-    }
+    // } catch (error) {
+    //   console.error(error);
+    // }
   };
 
   return (
