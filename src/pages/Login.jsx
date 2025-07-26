@@ -26,6 +26,7 @@ function Login() {
 //   }
 // };
 const HandleSubmit=(e)=>{
+  e.preventDefault()
   navigate('/dashboard')
 }
 

@@ -1,6 +1,9 @@
 import Navbar from "../components/Navbar";
 import "./Contact.css";
-
+import location from "../assets/Rectangle.png"
+import phone from "../assets/image 16.png"
+import whatsapp from "../assets/image 18.png"
+import contact from "../assets/image 19.png"
 // contact page
 function Contact() {
   return (
@@ -10,7 +13,7 @@ function Contact() {
       <section className="container-fluid text-dark text-center mb-0" id="upperbg">
         <div className="container">
           <img
-            src="src\assets\image 19.png"
+            src={contact}
             className="mx-auto d-block mb-xl-4"
           />
 
@@ -24,7 +27,7 @@ function Contact() {
             <div className="col-md-2 ">
               <div className="card border-2 px-1 py-3" style={{width: "250px", height:"250px"}}>
                 <img
-                  src="src\assets\Rectangle.png"
+                  src= {location}
                   alt="location"
                   className="card-img-top mx-auto"
                   id="img_size"
@@ -38,8 +41,8 @@ function Contact() {
               <div className="card border-2 px-1 py-3" style={{width: "250px", height:"250px"}}>
 
                 <img
-                  src="src\assets\image 16.png"
-                  alt="location"
+                  src={phone}
+                  alt="phone"
                   className="card-img-top mx-auto"
                   id="img_size"
                 />
@@ -51,8 +54,8 @@ function Contact() {
                 <div className="col-md-2">
               <div className="card border-2 px-1 py-3"style={{width: "250px", height:"250px"}}>
                 <img
-                  src="src\assets\image 18.png"
-                  alt="location"
+                  src={whatsapp}
+                  alt="whatsapp"
                   className="card-img-top mx-auto"
                   id="img_size"
                 />
