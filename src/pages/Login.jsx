@@ -8,23 +8,26 @@ function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-const HandleSubmit = async (e) => {
-  e.preventDefault();
-  try {
-    const { data } = await axios.post("/api/auth/login", {
-      identifier: username,
-      password,
-    }, {
-      withCredentials: true,
-    });
-    localStorage.setItem('token', data.token)
-    localStorage.setItem("role", data.role);
-    navigate("/dashboard");
-  } catch (error) {
-    alert("Wrong username or password");
-    console.error(error);
-  }
-};
+// const HandleSubmit = async (e) => {
+//   e.preventDefault();
+//   try {
+//     const { data } = await axios.post("/api/auth/login", {
+//       identifier: username,
+//       password,
+//     }, {
+//       withCredentials: true,
+//     });
+//     localStorage.setItem('token', data.token)
+//     localStorage.setItem("role", data.role);
+//     navigate("/dashboard");
+//   } catch (error) {
+//     alert("Wrong username or password");
+//     console.error(error);
+//   }
+// };
+const HandleSubmit=(e)=>{
+  navigate('/dashboard')
+}
 
   return (
     <div className="container d-flex justify-content-center mx-auto mt-5">

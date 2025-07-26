@@ -1,17 +1,68 @@
+import broco from "../assets/broco.png";
+import panasonic from "../assets/panasonic.png";
+import galleo from "../assets/galleo.png";
+import plano from "../assets/plano.png";
+import atlantic from "../assets/atlantic.png";
+import stylee from "../assets/stylee.png";
+import wide from "../assets/wide.png";
 
-function Product(){
-    return(
-        <div id="product">
-            <img id='broco' src="src\assets\broco.png"/>
-            <img id='panasonic' src='src\assets\panasonic.png'/>
-            <img id='galleo' src='src\assets\galleo.png'/>
-            <img id='plano' src='src\assets\plano.png'/>
-            <img id='atlantic' src='src\assets\atlantic.png'/>
-            <img id='wide' src='src\assets\wide.png'/>
-            <img id='stylee' src='src\assets\stylee.png'/>
-            <p id="product_header">Products</p>
+function Product() {
+  return (
+    <section className="container-fluid py-5 bg-light" id="product">
+      <h2 className="text-center display-5 fw-bold mb-5" style={{ fontFamily: "Inter" }}>
+        Products
+      </h2>
+
+      {/* Parent Row */}
+      <div className="row justify-content-center">
+        {/* Left Column - Broco side */}
+        <div className="col-12 col-md-6 d-flex flex-column align-items-center gap-4 mb-5 mb-md-0">
+          {/* Broco logo */}
+          <img
+            src={broco}
+            alt="Broco"
+            className="img-fluid "
+            style={{ maxHeight: "150px", objectFit: "contain" }}
+          />
+          {/* Broco products */}
+          <div className="d-flex flex-wrap justify-content-center gap-3">
+            {[galleo, plano, atlantic].map((img, idx) => (
+              <img
+                key={idx}
+                src={img}
+                alt={`Broco Product ${idx}`}
+                className="img-fluid "
+                style={{ maxHeight: "200px", width: "140px", objectFit: "contain" }}
+              />
+            ))}
+          </div>
         </div>
-    )
+
+        {/* Right Column - Panasonic side */}
+        <div className="col-12 col-md-6 d-flex flex-column align-items-center gap-4">
+          {/* Panasonic logo */}
+          <img
+            src={panasonic}
+            alt="Panasonic"
+            className="img-fluid "
+            style={{ maxHeight: "150px", objectFit: "contain" }}
+          />
+          {/* Panasonic products */}
+          <div className="d-flex flex-wrap justify-content-center gap-3">
+            {[stylee, wide].map((img, idx) => (
+              <img
+                key={idx}
+                src={img}
+                alt={`Panasonic Product ${idx}`}
+                className="img-fluid "
+                style={{ maxHeight: "200px", width: "140px", objectFit: "contain" }}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Product
+export default Product;

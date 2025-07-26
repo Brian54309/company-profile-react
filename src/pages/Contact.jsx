@@ -1,8 +1,11 @@
+import Navbar from "../components/Navbar";
 import "./Contact.css";
-import { Link } from "react-router-dom";
+
 // contact page
 function Contact() {
   return (
+    <>
+        <Navbar/>
     <div>
       <section className="container-fluid text-dark text-center mb-0" id="upperbg">
         <div className="container">
@@ -59,9 +62,9 @@ function Contact() {
               </div>
             </div>
         </div>
-        <Link to='/dashboard'><p>Back To Home Page</p></Link>
       </section>
     </div>
+    </>
   );
 }
 
